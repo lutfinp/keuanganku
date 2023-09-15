@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    overflow: auto;
+    margin : 10px 150px;
+}
+
+.semua {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.isi {
+    margin-top: 90px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+
+.kata h1{
+    font-family: 'M PLUS Rounded 1c', 'poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;    
+}
+
+.kata p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.kata img {
+    width: 80%;
+}
+
+.best {
+    display: grid;
+    place-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.best p{
+    font-family: 'M PLUS Rounded 1c', 'poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.best button {
+    color: #477CF4;
+    font-size: 20px;
+    background-color: #FCD900;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    padding: 14px;
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.best button:hover {
+    background-color: #477CF4;
+    color: #FCD900;
+}

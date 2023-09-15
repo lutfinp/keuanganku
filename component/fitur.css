@@ -1,0 +1,31 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    margin: 0px 155px;
+}
+
+.myButton {
+    font-size: 20px;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding: 14px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+}
+  
+.myButton.active,
+.myButton:hover {
+    /* Styles when the button is clicked */
+    background-color: #FCD900;
+    color: white;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+}

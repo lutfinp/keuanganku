@@ -1,0 +1,132 @@
+* {
+  /* margin: 10px; */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+.container {
+  width: 100%;
+  margin: 10px;
+  /* min-height: 100vh; */
+  background-color: #FFFFFF;
+}
+body {
+  font-family: 'poppins';
+  background: linear-gradient(to bottom, white 50%, #FFC700 50%);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  margin: 10px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 80px;
+  z-index: 111;
+}
+
+.logo {
+  margin: 10px;
+  display: flex;
+}
+
+.logo p{
+  font-size: 20px;
+  margin: auto;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navItems li{
+  list-style: none;
+  margin: 10px;
+}
+
+.navItems li a {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.useratas {
+  margin: 10px;
+  display: flex;
+}
+
+.useratas img{
+  width: 80%;
+}
+
+.useratas a {
+  margin: auto;
+  font-size: 20px;
+  text-decoration: none;
+}
+.profil{
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+
+.profil{ 
+  margin: auto;
+  max-width: 600px;
+  background-color: #FBFBFB;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 90px;
+  height: 515px;
+}
+
+.profil form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.profil form input{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.profil button {
+  font-size: 20px;
+  border: none;
+  box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding: 14px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.tombol{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; 
+  flex-wrap: nowrap;
+}
+
+.profil button:hover {
+  background-color: #FCD900;
+  color: white;
+}
+
+#logout {
+  margin-top: -58px;
+  margin-left: 350px;
+}

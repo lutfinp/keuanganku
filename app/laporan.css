@@ -1,0 +1,62 @@
+body {
+    overflow: auto;
+}
+
+.tanggal {
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+
+.tanggal ul{
+    display: flex;
+    list-style: none;
+}
+
+.tanggal ul li{
+    margin: auto;
+    justify-content: space-around;
+    padding: 0px 150px;
+}
+
+.content table {
+    border-collapse: collapse;
+    border: none;
+    border-color: #FCD900;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+
+.content table tr td {
+    padding: 20px 100px;
+}
+
+.judul {
+    padding: 20px 100px;
+    font-weight: bold;   
+}
+
+.cetak {
+    display: grid;
+    place-items: center;
+}
+
+.cetak button {
+    font-size: 20px;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding: 14px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #477CF4;
+    color: white;
+}
+
+.cetak button:hover {
+    background-color: #FCD900;
+    color: white;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+}

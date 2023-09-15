@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    overflow: auto;
+}
+
+.catat {
+    width: 100%;
+    margin :auto;
+    margin-top:40px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputan {
+    max-width: 550px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.pemasukan {
+    margin-bottom: 40px;
+}
+
+.pemasukan ul li {
+    list-style: none;
+}
+
+.pengeluaran ul li {
+    list-style: none;
+}
+
+.tanggal {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 152px;
+    height: 47px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5px;
+}
+
+.nominal input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 522px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5px;
+}
+
+.catatan input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 522px;
+    height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tambah {
+    display: grid;
+    place-items: left;
+}
+
+.tambah button {
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding: 12px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #477CF4;
+    color: white;
+}
+
+.tambah button:hover {
+    background-color: #FCD900;
+    color: white;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bawah {
+    width: 1116px;
+    height: 758px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.bawah ul li {
+    list-style: none;
+}
+
+.bawah h3 {
+    margin: 40px 0px 20px 60px;
+}
+
+.tabelatas {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 996px;
+    height: 206px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.tabelatas table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabelatas table tr td {
+    padding: 10px; 
+    border: 1px solid #000; 
+    text-align: center;
+}
+
+.nom {
+    width: 300px;
+    height: 50px;
+}
+
+.cat {
+    width: 650px;
+}
+
+.tabelatas .isi{
+    height: 150px;
+    vertical-align: top;
+}
+
+.tabelbawah {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 996px;
+    height: 327px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.tabelbawah table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabelbawah table tr td {
+    padding: 10px; 
+    border: 1px solid #000; 
+    text-align: center;
+}
+
+.tabelbawah .isi{
+    height: 270px;
+    vertical-align: top;
+}

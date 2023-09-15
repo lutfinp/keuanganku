@@ -1,0 +1,67 @@
+input[type="text"] {
+  font-size: 20px;
+  border: none;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding: 14px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: black;
+}
+.input {
+  margin-left: 200px;
+}
+
+.radio-container {
+  margin-left: 200px;
+  border: none;
+}
+.radio-label {
+  font-size: 20px;
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.radio-option {
+  margin-right: 10px;
+}
+button[id="submit-button"] {
+  padding: 10px 20px;
+  background-color: #008bfc;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 200px;
+}
+.result-container {
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  background-color: #f9f9f9;
+  border: 2px solid #fcd900;
+  border-radius: 15px;
+}
+
+.result-container h2 {
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  margin-bottom: 5px;
+}
+
+button[id="selesai-button"] {
+  padding: 10px 20px;
+  background-color: #fcd900;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 350px;
+  float: right;
+}

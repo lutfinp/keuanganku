@@ -1,0 +1,60 @@
+* {
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+header {
+    overflow: hidden;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p{
+    font-size: 20px;
+    margin: auto;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li{
+    list-style: none;
+    margin: auto;
+}
+
+.navItems li a {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.useratas {
+    margin: 0px;
+    display: flex;
+}
+
+.useratas img{
+    width: 80%;
+}
+
+.useratas a {
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+}

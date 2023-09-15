@@ -1,0 +1,53 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: auto;
+}
+
+h1 {
+  display: grid;
+  place-items: center;
+  font-size: 55px;
+}
+
+.manage {
+  margin-top: 35px;
+  margin-left: 100px;
+  display: grid;
+  width: 55%;
+  text-align: justify;
+  float: left;
+}
+
+.manage h2 {
+  font-size: 35px;
+}
+
+.started button {
+  font-size: 20px;
+  border: none;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding: 14px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: #fcd900;
+  color: white;
+}
+
+.started button:hover {
+  background-color: #477cf4;
+  color: white;
+  border: none;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.kkanan {
+  float: right;
+  margin-right: 55px;
+}

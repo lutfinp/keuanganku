@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    overflow: auto;
+    margin : 10px 150px;
+}
+
+.semua {
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 130px;
+}
+
+nav .logo {
+    display: flex;
+}
+
+nav .logo img {
+    width: 40%;
+}
+  
+nav .logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'M PLUS Rounded 1c', 'poppins';
+}
+  
+nav .right-menu ul {
+    margin: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .right-menu a {
+    text-decoration: none;
+    color: #477CF4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.login {
+    margin: auto;
+    margin-right: 15px;
+}
+  
+nav .right-menu a:hover {
+    color: #FCD900;
+}
+
+nav .right-menu button{
+    color: #ffff;
+    font-size: 15px;
+    background-color: #FCD900;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+nav .right-menu button:hover {
+    background-color: #477CF4;
+}
+
+.isi {
+    margin-top: 90px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+
+.kata h1{
+    font-family: 'M PLUS Rounded 1c', 'poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;    
+}
+
+.kata p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.kata img {
+    width: 80%;
+}
+
+.best {
+    display: grid;
+    place-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.best p{
+    font-family: 'M PLUS Rounded 1c', 'poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.best button {
+    color: #477CF4;
+    font-size: 20px;
+    background-color: #FCD900;
+    border: none;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.2);
+    padding: 14px;
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.best button:hover {
+    background-color: #477CF4;
+    color: #FCD900;
+}

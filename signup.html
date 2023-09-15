@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_signup.css" />
+    <link rel="icon" href="keuanganku.png" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign Up</h1>
+      <form action="auth/addata.php" method="post">
+        <input type="text" name="username" placeholder="Username max 10 karakter" required />
+        <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        <input type="text" name="email" placeholder="Email" required />
+        <input type="text" name="telepon" placeholder="Telepon" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password max 20 karakter"
+          required
+        />
+        <button type="submit" name="submit">Sign Up</button>
+      </form>
+      <p>Have Account? <a href="login.html">Login</a></p>
+    </div>
+  </body>
+</html>

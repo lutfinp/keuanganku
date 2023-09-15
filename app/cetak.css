@@ -1,0 +1,22 @@
+body {
+    overflow: auto;
+}
+
+.content table {
+    border-collapse: collapse;
+    border: none;
+    border-color: #FCD900;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.content table tr td {
+    padding: 20px 100px;
+}
+
+.judul {
+    padding: 20px 100px;
+    font-weight: bold;   
+}
