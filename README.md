@@ -1,0 +1,1 @@
+KeuanganKu is a web-based application that assists users in managing their personal finances, offering a wide range of features such as income and expense tracking, setting savings goals, and generating informative financial reports. This application is developed using HTML, CSS, and native PHP programming language, with MySQL serving as its database server.
